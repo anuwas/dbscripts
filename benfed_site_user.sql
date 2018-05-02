@@ -33,23 +33,4 @@ CREATE TABLE `site_user` (
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
--- Dumping data for table `site_user`
---
 
-LOCK TABLES `site_user` WRITE;
-/*!40000 ALTER TABLE `site_user` DISABLE KEYS */;
-INSERT INTO `site_user` VALUES (1,'Vishal Jaiswal','vishal.jaiswal@indware.com','admin123',1,'2017-03-27 07:20:10'),(2,'Anupam Biswas','anupam.biswas@indware.com','123',1,'2017-03-27 18:02:11'),(3,'a','a','a',1,'2017-03-27 17:41:41');
-/*!40000 ALTER TABLE `site_user` ENABLE KEYS */;
-UNLOCK TABLES;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
-
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-
--- Dump completed on 2018-04-28 11:00:31

@@ -40,7 +40,7 @@ CREATE TABLE `test_table` (
 
 LOCK TABLES `test_table` WRITE;
 /*!40000 ALTER TABLE `test_table` DISABLE KEYS */;
-INSERT INTO `test_table` VALUES (1,'Anupam','Kolkata',1,'2020-01-01 00:00:00','2020-12-15 19:25:48','12:20:20'),(2,'Biswas','Kolkata',2,'2020-01-02 00:00:00','2020-12-16 19:25:48','12:20:20');
+INSERT INTO `test_table` VALUES (1,'A','Kolkata',1,'2020-01-01 00:00:00','2020-12-15 19:25:48','12:20:20'),(2,'B','Kolkata',2,'2020-01-02 00:00:00','2020-12-16 19:25:48','12:20:20');
 /*!40000 ALTER TABLE `test_table` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
